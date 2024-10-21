@@ -1,0 +1,22 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Ansible files
+.ansible
+ansible.log
+
+# Test generated files
+tests/logs
+tests/_cache
+tests/metadata
+ansible/plugins/*/*.pyc
+# Temporary trimmed inventory file
+ansible/*_tmp
+
+# Dev tools
+.vscode/
+.idea/
+
+.python-version
